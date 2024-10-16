@@ -1,0 +1,15 @@
+# Dependency directories
+node_modules/
+
+# Environment Variables
+.env
+
+# Test reports and results
+reports/
+screenshots/
+
+# IDE and Editor files
+.vscode/
+
+# Miscellaneous
+*.log             # Log files

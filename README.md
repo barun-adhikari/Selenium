@@ -46,8 +46,8 @@ selenium-js-automation/
 ├── package.json               # Project dependencies and scripts
 └── README.md                  # Project documentation
 ```
-tests/: Contains test scripts written in JavaScript using Selenium WebDriver.
-utils/: Contains utility/helper functions that are reusable across test scripts.
+- tests/: Contains test scripts written in JavaScript using Selenium WebDriver.
+- utils/: Contains utility/helper functions that are reusable across test scripts.
 
 ## Running Tests
 
@@ -58,10 +58,10 @@ You can run the test scripts using the following command:
 
 ## Browser Support
 This project supports multiple browsers. Ensure the correct driver is available and configured:
-Google Chrome (via ChromeDriver)
-Mozilla Firefox (via geckodriver)
-Microsoft Edge (via EdgeDriver)
+- Google Chrome (via ChromeDriver)
+- Mozilla Firefox (via geckodriver)
+- Microsoft Edge (via EdgeDriver)
 
 ## Common Issues
-WebDriver not found: Ensure the correct browser driver (e.g., ChromeDriver or geckodriver) is installed and available in your system's PATH.
-Timeouts or slow tests: Increase the wait time in your test scripts if your browser or application is taking longer to load elements.
+- WebDriver not found: Ensure the correct browser driver (e.g., ChromeDriver or geckodriver) is installed and available in your system's PATH.
+- Timeouts or slow tests: Increase the wait time in your test scripts if your browser or application is taking longer to load elements.

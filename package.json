@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "chromedriver": "^129.0.4",
+    "dotenv": "^16.4.5",
     "selenium-webdriver": "^4.25.0"
   }
 }

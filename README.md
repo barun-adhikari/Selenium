@@ -1,4 +1,4 @@
-# Selenium JavaScript Automation Project (Under Construction)
+# Selenium JavaScript Automation Project (Under Construction...)
 
 This project demonstrates the use of Selenium WebDriver with JavaScript to automate browser-based tasks and testing for web applications.
 

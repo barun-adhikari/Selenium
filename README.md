@@ -43,7 +43,8 @@ selenium-js-automation/
 │   └── anotherTest.js         # Another sample test script
 ├── utils/
 │   └── helper.js              # Utility functions for tests
-├── package.json               # Project dependencies and scripts
+├── package.json
+├── test.js                    # The E2E test script    
 └── README.md                  # Project documentation
 ```
 - tests/: Contains test scripts written in JavaScript using Selenium WebDriver.
@@ -54,6 +55,11 @@ selenium-js-automation/
 You can run the test scripts using the following command:
    ```
    node tests/exampleTest.js
+   ```
+
+You can run the E2E test from here
+   ```
+   node test.js
    ```
 
 ## Browser Support

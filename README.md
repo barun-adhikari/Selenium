@@ -44,6 +44,7 @@ selenium-js-automation/
 ├── utils/
 │   └── helper.js              # Utility functions for tests
 ├── package.json
+├── .env
 ├── test.js                    # The E2E test script    
 └── README.md                  # Project documentation
 ```

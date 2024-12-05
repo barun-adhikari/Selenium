@@ -13,7 +13,7 @@ const launchWebDriver = require('./utils/webBrowser');
         driver.manage().window().maximize();
         console.log("The browser is maximized for the test.")
         await driver.get(baseUrl);
-        console.log(`The Url is set and the page is loading.`);
+        console.log(`The ${baseUrl} is set and the page is loading.`);
 
         
     } finally {

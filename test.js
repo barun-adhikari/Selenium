@@ -19,12 +19,15 @@ const launchWebDriver = require('./utils/webBrowser');
         await driver.get(baseUrl);
         console.log(`The ${baseUrl} is set and the page is loading.`);
 
-        logIn(driver);
+        // The Log in Process start's here.
+        await logIn(driver);
 
     }catch(err) {
-    console.error(err)
-        
+        console.error('An error occurred during the test:', err);        
     } finally {
-        // await driver.quit();
-    }
+            if (driver) {
+            console.log('Closing the browser.');
+            await driver.quit();
+            }
+        }
 })();

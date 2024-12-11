@@ -1,6 +1,7 @@
 require('dotenv').config();
 
 const logIn = require('./pages/Authentication/login');
+const passwordReset = require('./pages/Authentication/forgotPassword')
 
 const launchWebDriver = require('./utils/webBrowser');
 
@@ -18,16 +19,19 @@ const launchWebDriver = require('./utils/webBrowser');
         console.log("The browser is maximized for the test.");
         await driver.get(baseUrl);
         console.log(`The ${baseUrl} is set and the page is loading.`);
+        await driver.sleep(5000);
 
         // The Log in Process start's here.
-        await logIn(driver);
+        console.log('The Log in process has started.');
+        // await logIn(driver);
+        await passwordReset(driver);
 
     }catch(err) {
         console.error('An error occurred during the test:', err);        
     } finally {
             if (driver) {
             console.log('Closing the browser.');
-            await driver.quit();
+            // await driver.quit();
             }
         }
 })();

@@ -1,4 +1,4 @@
-const {By, Key} = require('selenium-webdriver');
+const {By} = require('selenium-webdriver');
 
 async function passwordReset(driver) {
     try {

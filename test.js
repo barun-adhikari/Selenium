@@ -22,10 +22,11 @@ const launchWebDriver = require('./utils/webBrowser');
         await driver.sleep(5000);
         // checking the flow for password Reset 
         await passwordReset(driver);
+        await driver.sleep(5000);
 
         // The Log in Process start's here.
         console.log('The Log in process has started.');
-        // await logIn(driver);
+        await logIn(driver);
 
     }catch(err) {
         console.error('An error occurred during the test:', err);        

@@ -67,7 +67,7 @@ You can run the E2E test from here
 This project supports multiple browsers. Ensure the correct driver is available and configured:
 - Google Chrome (via ChromeDriver)
 - Mozilla Firefox (via geckodriver)
-- Microsoft Edge (via EdgeDriver)
+- Microsoft Edge (via EdgeDriver) 
 
 ## Common Issues
 - WebDriver not found: Ensure the correct browser driver (e.g., ChromeDriver or geckodriver) is installed and available in your system's PATH.

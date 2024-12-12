@@ -23,6 +23,8 @@ const launchWebDriver = require('./utils/webBrowser');
 
         // This is so that we check the forgot password before going forward.
         await passwordReset(driver);
+        await driver.sleep(5000);
+      
         // The Log in Process start's here.
         console.log('The Log in process has started.');
         await logIn(driver);

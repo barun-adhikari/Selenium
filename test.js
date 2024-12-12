@@ -37,4 +37,4 @@ const launchWebDriver = require('./utils/webBrowser');
             // await driver.quit();
             }
         }
-})();
+})(); // testing git problem

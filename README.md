@@ -38,9 +38,9 @@ Ensure you have the necessary browser driver (e.g., ChromeDriver or geckodriver)
 ```
 selenium-js-automation/
 │
-├── tests/
-│   ├── exampleTest.js         # Example test script
-│   └── anotherTest.js         # Another sample test script
+├── pages/
+│   ├── functions.js         # Example test script for specific page
+│   └── funtions.js         # Another sample test script for specific page
 ├── utils/
 │   └── helper.js              # Utility functions for tests
 ├── package.json
@@ -52,11 +52,6 @@ selenium-js-automation/
 - utils/: Contains utility/helper functions that are reusable across test scripts.
 
 ## Running Tests
-
-You can run the test scripts using the following command:
-   ```
-   node tests/exampleTest.js
-   ```
 
 You can run the E2E test from here
    ```

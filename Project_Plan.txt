@@ -11,19 +11,16 @@ Day 1-2: Project Initialization
 Day 3: Requirement Analysis
 
     Functional Requirements:
-        Identify key functionalities to test (login, product search, add to cart, checkout).
+        Identify key functionalities to test.
     Non-Functional Requirements:
         Define performance and UI/UX testing requirements.
 
 Day 4-5: Test Case Design
 
     Create Test Cases:
-        Write detailed test cases for login/signup, product search, add to cart, checkout, and account settings.
-    Review Test Cases:
-        Share with peers or mentors for feedback.
+        Write detailed test cases for functionalities.
 
 Day 6-7: Learning and Familiarization
-
     Study Automation Best Practices:
         Review resources on automation frameworks and coding practices.
     Familiarize with Page Object Model (POM):
@@ -33,78 +30,4 @@ Week 2: Test Development
 Day 8-10: Develop Core Automation Scripts
 
     Login/Signup Automation:
-        Implement login and signup test scripts using POM.
-    Product Search Automation:
-        Automate search functionality and filter tests.
-
-Day 11-12: Cart and Checkout Automation
-
-    Add to Cart Automation:
-        Automate adding products to the cart and validating total price.
-    Checkout Process Automation:
-        Implement checkout tests with different payment methods.
-
-Day 13-14: Review and Refine
-
-    Code Review:
-        Review scripts for best practices and maintainability.
-    Refactor Code:
-        Improve structure and readability.
-
-Week 3: Performance and Non-Functional Testing
-Day 15-16: Performance Testing
-
-    Identify Key Pages for Performance Testing:
-        Focus on Home, Product Detail, and Checkout pages.
-    Implement Performance Tests:
-        Use tools like JMeter to measure load times.
-
-Day 17-18: UI/UX Validation
-
-    Implement UI Validation Tests:
-        Validate element visibility and alignment.
-    Screenshot Comparisons:
-        Automate comparisons with baseline screenshots.
-
-Day 19-20: Reporting and CI/CD Integration
-
-    Implement Test Reporting:
-        Use Allure or ExtentReports for detailed reports.
-    Set Up CI/CD:
-        Integrate testing into a CI/CD pipeline using Jenkins or GitHub Actions.
-
-Week 4: Final Review and Documentation
-Day 21-22: Final Testing and Bug Fixes
-
-    Run Complete Test Suite:
-        Execute all tests and identify any remaining bugs.
-    Bug Fixing:
-        Fix any identified issues and re-test.
-
-Day 23: Documentation
-
-    Write Documentation:
-        Create a README file explaining the project setup, execution, and key functionalities.
-    Document Test Cases:
-        Maintain a document of all test cases executed.
-
-Day 24-25: Presentation and Feedback
-
-    Prepare Presentation:
-        Summarize your project, highlighting achievements and lessons learned.
-    Seek Feedback:
-        Share your work with peers or mentors for constructive feedback.
-
-Day 26-28: Polish and Reflect
-
-    Refine Codebase:
-        Make any last-minute improvements based on feedback.
-    Reflect on Learning:
-        Write down key takeaways from the project and areas for future improvement.
-
-Key Milestones
-
-    End of Week 1: Completed environment setup and initial test cases.
-    End of Week 2: Developed core automation scripts for major functionalities.
-    End of Week 3: Implemented performance and UI tests, and integrated CI/CD.
-    End of Week 4: Completed project documentation and received feedback.
+        Implement login and forgot password test scripts using POM.

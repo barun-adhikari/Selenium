@@ -1,5 +1,6 @@
 const {By} = require('selenium-webdriver');
 
+
 async function passwordReset(driver) {
     try {
         const forgotText = await driver.findElement(By.className('orangehrm-login-forgot'));
@@ -11,9 +12,16 @@ async function passwordReset(driver) {
             await driver.sleep(5000);
             // The timer here is to halt the process so that the container is loaded.
             const container = await driver.findElement(By.className('orangehrm-card-container'));
-            const userNameInput = await container.findElement(By.name('username'));
+            const userNameInput = await container.findElement(By.name('username')); // there are no validation for the character type 
             userNameInput.sendKeys("Admin123");
             console.log('User Name filled.');
+
+            // add Scenerio for when the field is empty
+
+
+
+            // add scenerio for when user cancel's the method and the cancel button is clicked
+
 
             // Detecting button and clicking the button
             const confirmButton = container.findElement(By.className('orangehrm-forgot-password-button--reset'));
@@ -23,6 +31,7 @@ async function passwordReset(driver) {
             console.error('Error in detecting container:', error);
         }
 
+        // checking the password title container for the link
         try {
             await driver.sleep(3000);
             const container = await driver.findElement(By.className('orangehrm-card-container'));

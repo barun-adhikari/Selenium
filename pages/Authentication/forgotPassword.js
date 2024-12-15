@@ -19,7 +19,6 @@ async function passwordReset(driver) {
             // add Scenerio for when the field is empty
 
 
-
             // add scenerio for when user cancel's the method and the cancel button is clicked
 
 

@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 const logIn = require('./pages/Authentication/login');
-const passwordReset = require('./pages/Authentication/forgotPassword')
+const PasswordReset = require('./pages/Authentication/forgotPassword')
 
 const launchWebDriver = require('./utils/webBrowser');
 
@@ -22,7 +22,7 @@ const launchWebDriver = require('./utils/webBrowser');
         await driver.sleep(5000);
 
         // This is so that we check the forgot password before going forward.
-        await passwordReset(driver);
+        await PasswordReset(driver); 
         await driver.sleep(5000);
       
         // The Log in Process start's here.
